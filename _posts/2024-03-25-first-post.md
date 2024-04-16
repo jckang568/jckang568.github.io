@@ -1,28 +1,17 @@
 ---
-title:  "github.io 블로그 시작하기"
-excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
+title:  "Github Pages 시작하기"
+excerpt: "GitHub 의 Blog 서비스인 Github Pages 를 시작하기로 했다."
 
 categories:
   - Blog
 tags:
   - Blog
-last_modified_at: 2024-03-25T16:21:42+09:00
+last_modified_at: 2024-04-16T18:45:42+09:00
 ---
 
-GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
-GitHub Blog 서비스의 이름은 Pages이다.
+### 블로그 시작
+개발자로 일하면서 '나'라는 브랜드를 만들 수 있는 방법이 뭐가 있을까 생각해봤다. 유튜브, 블로그 등 여러 가지가 있겠지만 접근성에서 제일 쉬운 블로그부터 시작하기로 했다. 블로그를 막상 시작하려니 선택지가 너무 많아서 하나를 고르는 데 꽤 시간이 걸렸다.
 
-Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다.
-다른 사람들도 같이 많이 사용했으면 좋겠다는 생각이 든다.
+후보군으로는 티스토리, velog, GitHub Pages 이렇게 3개로 좁혔고, 결국 내 입맛대로 커스터마이징 가능한 GitHub Pages로 블로깅 시작하기로 마음먹었다. Jekyll 세팅하는데 시간이 꽤 걸렸지만 관련 레퍼런스가 상세하게 잘 나와 있어서, 큰 어려움 없이 어느 정도 세팅은 마칠 수 있었다.
 
-YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
-이 글의 제목은 "{{ page.title }}"이고
-마지막으로 수정된 시간은 "{{ page.last_modified_at }}"이다.
-
-아래는 highlight linenos 테스트 구문이다.
-
-{% highlight go linenos %}
-func main() {
-  fmt.Println("Hello World!")
-}
-{% endhighlight %}
+이렇게 첫 블로그 시작 글을 쓰게 됐다. 앞으로 개발 지식이나 경험 같은 거 정리하면서 '나'라는 브랜드를 만들어나갈 생각이다.

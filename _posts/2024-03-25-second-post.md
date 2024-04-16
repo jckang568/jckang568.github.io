@@ -3,10 +3,16 @@ title:  "Retry 어노테이션 구현"
 excerpt: "기존 프로젝트의 readme 테스트 중."
 
 categories:
-  - Blog
+  - Spring
 tags:
-  - Blog
+  - Retry
+  - Spring
+  - Jitter
 last_modified_at: 2024-03-25T16:58:42+09:00
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+toc_sticky: true
 ---
 
 # Retry 어노테이션 구현

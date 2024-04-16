@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "dirt"
 minimal_mistakes_skin_dark: "dark"
 
 # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -23,7 +23,8 @@ logo_dark: "/assets/brand/logo_dark.svg"
 locale                   : "ko-KR"
 title                    : "나의 개발 여행일지"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+# site tagline that appears below site title in masthead
+subtitle                 :
 name                     : "Jongchan"
 description              : "Java와 Spring을 활용한 백엔드 개발 팁, 모범 사례, 실무 가이드를 만나보세요. Spring Boot, Spring MVC, Spring Data 등 핵심 Spring 프레임워크를 적용하여 견고하고 확장 가능한 서버 애플리케이션을 구축하는 방법을 함께 고민해봐요."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -64,8 +65,10 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+# true, false (default)
+search                   : true
+# true, false (default)
+search_full_content      : true
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
@@ -112,7 +115,7 @@ author:
   name             : "Jongchan"
   avatar           : "/assets/images/profile.png"
   bio              : "An explorer somewhere between 1 and 0"
-  location         : "South Korea"
+  location         : "Republic of Korea"
   email            : "jckang568@gmail.com"
   links:
     - label: "Email"
@@ -253,8 +256,8 @@ whitelist:
 
 # Archives
 #  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  - GitHub Pages compatible archive pages.md built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages.md ~> type: jekyll-archives
 #  Path (examples)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
@@ -287,7 +290,6 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
@@ -296,7 +298,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
@@ -311,5 +313,19 @@ defaults:
       author_profile: true
       read_time: false
       comments: false
-      share: true
+      share: false
       related: false
+
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      sidebar:
+        nav: "docs"

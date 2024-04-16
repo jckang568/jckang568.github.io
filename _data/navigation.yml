@@ -1,12 +1,60 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "About"
+    url: /about/
+  - title: "Tags"
+    url: /tags/
+  - title: "Categories"
+    url: /categories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+
+
+docs:
+  - title: Web/App Development
+    children:
+      - title: "Java"
+        url: /categories/java/
+      - title: "Spring"
+        url: /categories/spring/
+
+  - title: C.S
+    children:
+      - title: "Algorithm"
+        url: /categories/algorithm/
+      - title: "Network"
+        url: /categories/network/
+
+  - title: Database
+    url: /categories/database/
+    children:
+      - title: "SQL"
+        url: /categories/sql/
+      - title: "NoSQL"
+        url: /categories/nosql/
+      - title: "Database Design"
+        url: /categories/database-design/
+      - title: "Performance Optimization"
+        url: /categories/performance-optimization/
+      - title: "Database Operations"
+        url: /categories/database-operations/
+
+  - title: Software Engineering
+    url: /categories/software-engineering/
+
+  - title: Extras
+    children:
+      - title: "Development Environment"
+        url: /categories/development-environment/
+      - title: "Infrastructure"
+        url: /categories/infrastructure/
+      - title: "Tip"
+        url: /categories/tip/
+      - title: "Glossary"
+        url: /categories/glossary/
