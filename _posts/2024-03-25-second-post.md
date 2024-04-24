@@ -10,7 +10,7 @@ tags:
   - Jitter
 last_modified_at: 2024-03-25T16:58:42+09:00
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "목차"
 toc_icon: "cog"
 toc_sticky: true
 ---
